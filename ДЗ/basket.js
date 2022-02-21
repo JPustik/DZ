@@ -43,14 +43,14 @@ function addToCart(id, name, price) {
 }
 
 /**
- * @return {number} - Количество продуктов в корзине.
+ * @return {number} - Количество продуктов.
  */
 function getTotalBasketCount() {
   return Object.values(basket).reduce((acc, product) => acc + product.count, 0);
 }
 
 /**
- * @return {number} - Итоговую цену по всем добавленным продуктам.
+ * @return {number} - Итоговая цена.
  */
 function getTotalBasketPrice() {
   return Object
