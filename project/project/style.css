@@ -1,0 +1,28 @@
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 230px;
+    padding-right: 230px;
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.basket{
+    background-color: #fff;
+}
+
+.buy-btn{
+    color: white;
+    background-color: #464451;
+    width: 30%;
+    text-align: center;
+    padding-right: 230px;
+}
+
+.product-item{
+}
+
+.buy-btn{
+
+}
